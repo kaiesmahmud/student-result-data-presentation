@@ -174,13 +174,10 @@ int main()
                 }
                 j++;
             }
-
-
             i++;
         }
         printf("\n---------Thank You, Have a Nice Day---------\n");
     }else{
-
         printf("\n---------Thank You, Have a Nice Day---------\n");
     }
 
