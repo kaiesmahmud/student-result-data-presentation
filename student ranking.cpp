@@ -20,7 +20,7 @@ struct data
 int valCheck(int mn,int mx)
 {
     int val;
-    scanf("%d",&val);
+    scanf("%f",&val);
     if(val>=mn && val <=mx){
         return val;
     }
