@@ -1,12 +1,11 @@
 # student-result-data-presentation
-Make structure - complete ,\n
-Taking input from user - complete \n
-Conditional input - Complete \n
-Result Calculation -Complete \n
-Cgpa - Complete \n
-Ranking - Complete \n
-print data by ranking - Complete \n
+Make structure - complete ,\
+Taking input from user - complete \
+Conditional input - Complete \
+Result Calculation -Complete \
+Cgpa - Complete \
+Ranking - Complete \
+print data by ranking - Complete \
 
-Sample data for program: \n 
- Number of Students : 5 \n 
- 
+Sample data for program: \ 
+ Number of Students : 5 \ 
