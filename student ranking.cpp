@@ -69,8 +69,8 @@ int main()
     i=0;
     while(i<n)
     {
-        printf("\n<<<---------------%d--------------->>>\n",i+1);
-        printf("\n Enter Name:");
+        printf("\n<<<---------------Student No : %d--------------->>>\n",i+1);
+        printf("\n Enter Student Name:");
         scanf("%s",&students[i].name);
         printf("\n Enter ID :");
         scanf("%ld",&students[i].id);
@@ -152,9 +152,9 @@ int main()
 
     //printing results start here
     printf("\n--------------------------------------------------\n");
-    printf("\n--------------------------------------------------\n");
-    printf("\n--------------------------------------------------\n");
+    printf("\n--------------------------------------------------------------\n");
     printf("\n----------Proceed to show results ?(1/0)----------------------\n");
+    printf("\n--------------------------------------------------\n");
     scanf("%d",&proceed);
     if(proceed){
         i=0;
@@ -165,12 +165,12 @@ int main()
             {
                 if(rankingId[i] == students[j].id)
                 {
-                    printf("\n<<<<-------------Ranking %d ----------->>>>\n",i+1);
-                    printf("\n Name:%s   ID: %ld  Result:%.2f   CGPA: %s  \n" ,
-                                            students[j].name,
-                                            students[j].id,
-                                            students[j].result,
-                                            students[j].cgpa);
+                    printf("\n\n<<<<-------------Ranking %d ----------->>>>\n",i+1);
+                    printf("\n Name:%s   ID: %ld    Result:%.2f   CGPA: %s  \n\n" ,
+                                students[j].name,
+                                students[j].id,
+                                students[j].result,
+                                students[j].cgpa);
                 }
                 j++;
             }
