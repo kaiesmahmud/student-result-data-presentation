@@ -6,6 +6,5 @@ Result Calculation -Complete \
 Cgpa - Complete \
 Ranking - Complete \
 print data by ranking - Complete \
-
-Sample data for program: \ 
- Number of Students : 5 \ 
+Sample data for program: \
+ Number of Students : 5 \
